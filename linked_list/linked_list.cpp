@@ -8,7 +8,7 @@ struct Node
 };
 int main()
 {
-  struct Node* head = NULL;
+  struct Node *head = NULL;
   struct Node* second = NULL;
   struct Node* third = NULL;
      

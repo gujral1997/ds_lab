@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
 	struct node *t;	
 
 	t = head;
-	while(t != NULL)
+	while(t != NULL) // while(t) will work too
 	{
 		cout<<t->i;
 		t = t -> link;
