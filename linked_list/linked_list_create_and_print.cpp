@@ -11,10 +11,10 @@ int main()
    int n;
    cout<<"enter the length of linked list"<<endl;
    cin>>n;
-   struct node *p,*start=NULL,*last=NULL;
+   struct node *start=NULL,*last=NULL;
    for(int i=1;i<=n;i++)
    {
-     p=(struct node*)malloc(sizeof(struct node));
+     struct node *p=(struct node*)malloc(sizeof(struct node));
      cout<<"enter the data";
      cin>>p->data;
      p->next=NULL;
